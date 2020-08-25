@@ -1,6 +1,6 @@
 import 'package:cleanflutter/core/error/exceptions.dart';
 import 'package:cleanflutter/core/error/failures.dart';
-import 'package:cleanflutter/core/platform/network_info.dart';
+import 'package:cleanflutter/core/network/network_info.dart';
 import 'package:cleanflutter/features/number_trivia/data/datasources/number_trivia_local_datasource.dart';
 import 'package:cleanflutter/features/number_trivia/data/datasources/number_trivia_remote_datasource.dart';
 import 'package:cleanflutter/features/number_trivia/data/models/number_trivia_model.dart';

@@ -1,6 +1,6 @@
 name: cleanflutter
 description: Clean flutter course project from resocoder
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
@@ -18,7 +18,7 @@ dependencies:
   # Functional programming thingies
   dartz: ^0.8.6
   # Remote API
-  connectivity: ^0.4.3+7
+  data_connection_checker: ^0.3.4
   http: ^0.12.0+2
   # Local cache
   shared_preferences: ^0.5.3+4
