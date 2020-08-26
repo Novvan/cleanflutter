@@ -17,12 +17,12 @@ const String CACHE_FAILURE_MESSAGE = 'Cache failure';
 const String INVALID_INPUT_FAILURE_MESSAGE =
     'Invalid input - the number must be a positive integer or zero';
 
-class NumberTriviaBlock extends Bloc<NumberTriviaEvent, NumberTriviaState> {
+class NumberTriviaBloc extends Bloc<NumberTriviaEvent, NumberTriviaState> {
   final GetConcreteNumberTrivia getConcreteNumberTrivia;
   final GetRandomNumberTrivia getRandomNumberTrivia;
   final InputConverter inputConverter;
 
-  NumberTriviaBlock({
+  NumberTriviaBloc({
     @required GetConcreteNumberTrivia concrete,
     @required GetRandomNumberTrivia random,
     @required this.inputConverter,
